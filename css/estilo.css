@@ -150,7 +150,7 @@ nav a:hover, nav a:focus{
 }
 
 #conteudo h2, #conteudo h3, #conteudo p{
-    padding: 1% 0;
+    padding: 1%;
 }
 
 .titulo{
@@ -261,12 +261,9 @@ iframe{
 
 #form-contato input, #form-conrato textarea{
     border: solid 2px black;
+    width: 375px;
 }
 
-#form-contato textarea{
-    width: 98%;
-    padding: 1%;
-}
 
 /*regras para o label*/
 #form-contato label{
@@ -288,6 +285,10 @@ iframe{
 
 .conteudo-info p{
     margin: 5%;
+}
+
+.localização p{
+    text-align: center;
 }
 
 #card-pacote{
@@ -331,4 +332,46 @@ iframe{
     min-height: inherit;
     padding: 1px 8px;
     text-decoration: none;
+}
+
+
+/*REGRAS PARA ACESSORIOS*/
+.acessorios{
+    margin: auto;
+    padding: 15px;
+}
+
+.produtos img{
+    max-width: 100px;
+    border: solid #7f7f80 3px;
+    border-radius: 100%;
+    box-shadow: grey 1px 1px 5px;
+}
+
+.produtos{
+    box-shadow: gray 1px 1px 5px;
+    text-align: center;
+    padding: 20px;
+    width: 360px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.produtos h4{
+    color: #ed6d19;
+    text-transform: uppercase;
+}
+
+.img-produto img{
+    width: 100px;
+    height: 100px;
+}
+.acesse{
+    text-transform: uppercase;
+    background-color: #ed6d19;
+    width: 100px;
+    height: 20px;
+    padding: 3px;
+    margin: 10px auto;
 }
