@@ -6,7 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+
+    <!-- css plugin slick -->
+    <link rel="stylesheet" href="slick/slick.scss">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
     <link rel="stylesheet" href="css/estilo.css">
+
+
 </head>
 
 <body>
@@ -128,7 +135,18 @@
                 &copy; 2023</p>
         </div>
     </footer>
-
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="slick/slick.js"></script>
+    <script>
+        $(document).ready(function(){
+             $('#destaque').slick({
+                autoplay:true,
+                autoplaySpeed:4000,
+                dots:true,
+                arrows:false
+             })
+        })
+    </script>
 
 </body>
 

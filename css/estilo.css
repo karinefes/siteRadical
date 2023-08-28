@@ -419,7 +419,7 @@ iframe{
         align-items: center;
     }
 
-    #card-pacote{
+    .card-pacote-info{
         margin: 0.4%;
     }
 
@@ -431,4 +431,65 @@ iframe{
         height: 370px;
     }
     
+}
+
+/*2 breackpoints*/
+
+@media (min-width:850px){
+    .card-conteudo figure img{
+        height: 150px;
+        width: 210px;
+    }
+
+    .text-destaque h2{
+        margin-top: -4px;
+    }
+    .text-destaque p{
+        margin-top: -11px;
+    }
+
+    .acessorios{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .produtos{
+        height:240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #conteudo-contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #conteudo article{
+        margin: auto 0.5%;
+    }
+
+    .localização iframe{
+        height: 500px;
+    }
+
+    .cont-contado{
+        height: 800px;
+    }
+
+}
+
+@media(min-width:900px){
+    nav{
+        width: 700px;
+    }
+
+    #conteudo{
+        width: 900px;
+    }
+    .cont-home{
+        height: 430px;
+    }
 }
