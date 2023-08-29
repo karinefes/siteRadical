@@ -7,13 +7,13 @@
     $conteudo .="<p><b>Mensagem: </b> $mensagem </p>";
 
     // Define o que deverá aparecer no assunto
-    $subject = "Contato site  - $assunto"; // (PODE ALTERAR)
+    $subject = "Contato site RADICAL - $assunto"; // (PODE ALTERAR)
 
     // Email do dominio, é responsável por enviar (DEVE ALTERAR)
-    $from = "";   
+    $from = "karine.fsilva3@senacsp.edu.br";   
 
     // Email de quem será o responsável por receber os contatos (DEVE ALTERAR)
-    $to = "";    
+    $to = "karine.fsilva3@senacsp.edu.br";    
        
 
     // Esconder endereços de e-mails (NÃO ALTERAR)

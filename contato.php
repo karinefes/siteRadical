@@ -29,9 +29,9 @@
 
         
                 <?php
-                    if(isset( $_POST['enviar'])){
+                    if(isset( $_POST['enviar']) ){
                         //verificar os campos indicados no formulario
-                        if(!empty($_POST['nome']) &&  !empty($_POST['email']) && !empty($_POST['telefone']) && !empty($_POST['assunto']) && !empty($_POST['mensagem'])){
+                        if( !empty($_POST['nome']) &&  !empty($_POST['email']) && !empty($_POST['telefone']) && !empty($_POST['assunto']) && !empty($_POST['mensagem'])){
 
 
                         $nome = $_POST['nome'];
@@ -40,7 +40,7 @@
                         $assunto = $_POST['assunto'];
                         $mensagem = $_POST['mensagem'];
 
-                        $data = date ("Y-m-d H:i:s")
+                        //$data = date ("Y-m-d H:i:s")
                         }
                     }
 
